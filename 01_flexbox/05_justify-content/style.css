@@ -1,0 +1,42 @@
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    display: flex;
+
+    /* Justify-content */
+    /* Default Direction => Row => Main Axis => Horizontal */
+
+    /* 1.1 */
+    /* Flex Start (Default) */
+    /* justify-content: flex-start; */
+
+    /* 1.2 */
+    /* Flex End */
+    /* justify-content: flex-end; */
+
+    /* 1.3 */
+    /* Center */
+    /* justify-content: center; */
+
+    /* 1.4 */
+    /* Space Between */
+    /* justify-content: space-between; */
+
+    /* 1.5 */
+    /* Space Around */
+    /* justify-content: space-around; */
+
+    /* 1.6 */
+    /* Space Evenly */
+    /* justify-content: space-evenly; */
+}
+
+li {
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}

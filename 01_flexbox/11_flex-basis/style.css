@@ -1,0 +1,22 @@
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Flex Basis (Default = Auto) */
+/* Increases the size of some child element, then
+ * the gived value will be used as a base for grow or shrink.
+ * It's like flex-grow, but with a fixed size (base).
+ */
+li:first-child {
+    flex-basis: 25rem;
+}

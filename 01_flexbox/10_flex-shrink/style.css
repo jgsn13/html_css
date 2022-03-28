@@ -1,0 +1,24 @@
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+}
+
+/* How much the child element will shrink and fit in the container */
+/* Flex Shrink Default = 1 = On) */
+li:first-child {
+    flex-shrink: 0;
+}
+
+li:nth-child(2) {
+    flex-shrink: 2;
+}

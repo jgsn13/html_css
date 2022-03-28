@@ -1,0 +1,25 @@
+/*
+ * Flex container starts from the left to the right.
+ * Does the same as setting inline-block in Flex Container childs.
+ */
+
+/* Flex Container => Parent */
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+
+    /* Flex Container Properties */
+    display: inline-flex; /* It acts as though it is inline, but for a flex container */
+    display: flex;
+}
+
+/* Flex Items => Children */
+li {
+    /* display: inline-block; */
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}

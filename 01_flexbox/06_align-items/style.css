@@ -1,0 +1,46 @@
+ul {
+    background-color: lightslategray;
+    height: 300px; /* added to see align-items property */
+    padding: 20px;
+    display: flex;
+
+    /* Align-items (Vertically) */
+
+    /* 1.1 */
+    /* Stretch (Default) */
+    /* align-items: stretch; */ /* goes away if the children elements have a height */
+
+    /* 1.2 */
+    /* Flex Start */
+    /* align-items: flex-start; */
+
+    /* 1.3 */
+    /* Flex End */
+    /* align-items: flex-end; */
+
+    /* 1.4 */
+    /* Center */
+    /* align-items: center; */
+
+    /* 1.5 */
+    /* Baseline */
+    /* align-items: baseline; */ /* center according to the text baseline */
+}
+
+li {
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    /* height: 100px; */ /* Comment out for (align-items: stretch) to be visualized */
+    padding-top: 20px; /* Comment in for (align-items: baseline) to be visualized */
+    padding-bottom: 20px; /* Comment in for (align-items: baseline) to be visualized */
+}
+
+/* Comment in for (align-items: stretch) to be visualized */
+li:first-child {
+    padding: 5px;
+}

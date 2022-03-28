@@ -1,0 +1,49 @@
+ul {
+    background-color: lightslategray;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Align-content (When wraps) (vertically).
+     * Controls space between the lines of the elements when wraps.
+     * Like justify-content, but vertically */
+
+    /* 1.1 */
+    /* Stretch (Default) */
+    /* align-content: stretch; */
+
+    /* 1.2 */
+    /* Flex Start */
+    /* align-content: flex-start; */
+
+    /* 1.3 */
+    /* Flex End */
+    /* align-content: flex-end; */
+
+    /* 1.4 */
+    /* Space Between */
+    /* align-content: space-between; */
+
+    /* 1.5 */
+    /* Space Around */
+    /* align-content: space-around; */
+
+    /* 1.6 */
+    /* Space Evenly */
+    /* align-content: space-evenly; */
+
+    /* 1.7 */
+    /* Center */
+    /* align-content: center; */
+}
+
+li {
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}

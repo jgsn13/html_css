@@ -1,0 +1,50 @@
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    /* height: 300px; */ /* added for flex flow of columns */
+    display: flex;
+
+    /* Flex Flow (shorthand for direction and wrap) */
+
+    /* 1.1 */
+    /* Row (Direction) Wrap (Wrap) */
+    /* flex-flow: row wrap; */
+
+    /* 1.2 */
+    /* Column Wrap */
+    /* flex-flow: column wrap; */
+
+    /* 1.3 */
+    /* Row-reverse Wrap */
+    /* flex-flow: row-reverse wrap; */
+
+    /* 1.4 */
+    /* Column-reverse Wrap */
+    /* flex-flow: column-reverse wrap; */
+
+    /* 1.5 */
+    /* Row (Direction) No-wrap (Wrap) */
+    /* flex-flow: row nowrap; */
+
+    /* 1.6 */
+    /* Column No-wrap */
+    /* flex-flow: column nowrap; */
+
+    /* 1.7 */
+    /* Row-reverse No-wrap */
+    /* flex-flow: row-reverse nowrap; */
+
+    /* 1.8 */
+    /* Column-reverse No-wrap */
+    /* flex-flow: column-reverse nowrap; */
+}
+
+li {
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}

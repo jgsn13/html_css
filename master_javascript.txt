@@ -1,0 +1,32 @@
+Types and scope
+Datatypes
+Primitive
+Null and undefined
+Numbers
+Strings
+Boolean
+Operators statements
+Reference data type
+Arrays
+Objects
+Maps and sets
+Function declaration
+Default params
+Spread operators
+Callback functions
+OOP in js
+Prototypal inheritance
+Classes
+Functions programming
+Call, apply and bind
+Closures
+Async js
+Promises
+Async and await
+HTML and js
+Event bubbling and capturing
+Proxy and reflection
+Symbols
+Regex
+Web workers
+Generators

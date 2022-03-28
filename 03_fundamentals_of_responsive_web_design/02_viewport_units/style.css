@@ -1,0 +1,19 @@
+/* :root {} or html {} selectors are the same */
+
+/* Viewport Width => vw -- Viewport Height => vh */
+
+/* img { */
+/*     width: 50vw; */
+/*     height: 50vh; */
+/*  */
+/*     border: lightslategray 0.2rem solid; */
+/*  */
+/*    object-fit: cover; */ /* here we don't lose the aspect ratio */
+/*    object-fit: contain; */ /* here we can get white spaces */
+/* } */
+
+/* Vmin -- Vmax => useful in vertical or horizontal adjustments */
+img:last-of-type {
+    /* width: 50vmin; */ /* vmin is the smaller viewport unit (width or height) */
+    width: 50vmax; /* the opposite of vmin */
+}

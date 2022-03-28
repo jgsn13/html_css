@@ -1,0 +1,21 @@
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Flex Shorthand (flex-grow flex-shrink flex-basis) */
+/* In this case flex-basis will work when flex-grow gets the value
+ * of flex-basis (because you may notice it will not work).
+ */
+li:first-child {
+    flex: 1 0 auto;
+}
